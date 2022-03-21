@@ -1,0 +1,38 @@
+{
+  "name": "zc-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "zc": "./bin/zc",
+    "zc-cli": "./bin/zc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "cli",
+    "zc-cli",
+    "脚手架"
+  ],
+  "author": {
+    "name": "zcxiaobao",
+    "email": "444186976@qq.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.0.0",
+    "commander": "^9.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.1",
+    "ora": "^5.0.0"
+  },
+  "devDependencies": {}
+}
