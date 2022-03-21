@@ -1,6 +1,6 @@
 {
-  "name": "zc-cli",
-  "version": "1.0.0",
+  "name": "zcxiaobao-cli",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
+    "images",
     "bin",
     "lib"
   ],
